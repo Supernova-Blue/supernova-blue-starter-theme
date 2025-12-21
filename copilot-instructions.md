@@ -1,0 +1,1 @@
+/Users/roberto/Shopify/Supernova Blue/AGENTS.md
