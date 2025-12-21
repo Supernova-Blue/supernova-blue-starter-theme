@@ -1,0 +1,29 @@
+{
+  "name": "supernova-blue",
+  "version": "1.0.0",
+  "description": "Supernova Blue Shopify Theme",
+  "homepage": "https://github.com/Supernova-Blue/supernova-blue#readme",
+  "bugs": {
+    "url": "https://github.com/Supernova-Blue/supernova-blue/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supernova-Blue/supernova-blue.git"
+  },
+  "license": "ISC",
+  "author": "Roberto Capannelli",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.3.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
