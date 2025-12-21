@@ -15,3 +15,7 @@ node_modules/
 ## Release files
 release
 *.zip
+
+## Output files
+assets/main.css
+assets/main.js
