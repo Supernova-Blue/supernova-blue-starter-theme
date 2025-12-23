@@ -11,3 +11,14 @@
 #
 # Ignore templates and sections with a regular expression:
 #   /(templates|sections)/.*\.json/
+
+# Ignore local tooling files
+package.json
+package-lock.json
+
+# Common local files
+node_modules/
+.env
+.env.*
+.DS_Store
+*.log
