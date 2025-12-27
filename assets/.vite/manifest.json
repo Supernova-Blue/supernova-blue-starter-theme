@@ -1,0 +1,26 @@
+{
+  "frontend/entrypoints/critical.css": {
+    "file": "critical-DXRdBClm.css",
+    "src": "frontend/entrypoints/critical.css",
+    "isEntry": true,
+    "name": "critical",
+    "names": [
+      "critical.css"
+    ]
+  },
+  "frontend/entrypoints/main.css": {
+    "file": "main-3fYgKDtW.css",
+    "src": "frontend/entrypoints/main.css",
+    "isEntry": true,
+    "name": "main",
+    "names": [
+      "main.css"
+    ]
+  },
+  "frontend/entrypoints/main.js": {
+    "file": "main-B5Qt9EMX.js",
+    "name": "main",
+    "src": "frontend/entrypoints/main.js",
+    "isEntry": true
+  }
+}

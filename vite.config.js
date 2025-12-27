@@ -1,24 +1,20 @@
-import { defineConfig } from "vite";
-import tailwindcss from '@tailwindcss/vite';
+import { defineConfig } from 'vite'
+import shopify from 'vite-plugin-shopify'
+import shopifyClean from '@driver-digital/vite-plugin-shopify-clean'
+import tailwindcss from '@tailwindcss/vite'
+import pageReload from 'vite-plugin-page-reload'
 
 export default defineConfig({
-   plugins: [
-    tailwindcss(),
+  plugins: [
+    pageReload(['**/*.liquid', '**/*.css', '**/*.js']),
+    shopifyClean(),
+    shopify({
+      snippetFile: 'vite-tag.liquid',
+      tunnel: true
+    }),
+    tailwindcss()
   ],
   build: {
-    outDir: "assets",
-    emptyOutDir: false,
-    rollupOptions: {
-      input: {
-        app: "src/scripts/main.js",
-        main: "src/styles/main.css"
-      },
-      output: {
-        entryFileNames: (chunk) => (chunk.name === "app" ? "main.js" : "[name].js"),
-        chunkFileNames: "[name].js",
-        assetFileNames: "[name][extname]"
-      }
-    }
-  },
-  publicDir: false
-});
+    emptyOutDir: false
+  }
+})
