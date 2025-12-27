@@ -10,3 +10,4 @@ Thumbs.db
 node_modules
 assets/main*.js
 assets/*.css
+snippets/vite-tag.liquid
