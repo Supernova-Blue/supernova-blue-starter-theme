@@ -21,9 +21,9 @@
     {% render 'meta-tags' %}
 
     {%- liquid
-      render 'vite-tag' entry: 'critical.css', preload_stylesheet: true
-      render 'vite-tag' entry: 'main.css', preload_stylesheet: true
-      render 'vite-tag' entry: 'main.js'
+      render 'vite-tag', entry: 'critical.css', preload_stylesheet: true
+      render 'vite-tag', entry: 'main.css', preload_stylesheet: true
+      render 'vite-tag', entry: 'main.js'
     -%}
     {{ content_for_header }}
   </head>

@@ -1,5 +1,3 @@
 export default {
-  content: [
-    './**/*.{liquid,js,css}',
-  ],
-}
+  content: ["./**/*.{liquid,js,css}"],
+};

@@ -4,18 +4,14 @@
     "src": "frontend/entrypoints/critical.css",
     "isEntry": true,
     "name": "critical",
-    "names": [
-      "critical.css"
-    ]
+    "names": ["critical.css"]
   },
   "frontend/entrypoints/main.css": {
     "file": "main-3fYgKDtW.css",
     "src": "frontend/entrypoints/main.css",
     "isEntry": true,
     "name": "main",
-    "names": [
-      "main.css"
-    ]
+    "names": ["main.css"]
   },
   "frontend/entrypoints/main.js": {
     "file": "main-B5Qt9EMX.js",
