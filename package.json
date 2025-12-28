@@ -2,13 +2,13 @@
   "name": "supernova-blue",
   "version": "1.0.0",
   "description": "Supernova Blue Shopify Theme",
-  "homepage": "https://github.com/Supernova-Blue/supernova-blue#readme",
+  "homepage": "https://github.com/Supernova-Blue/supernova-blue-starter-theme#readme",
   "bugs": {
-    "url": "https://github.com/Supernova-Blue/supernova-blue/issues"
+    "url": "https://github.com/Supernova-Blue/supernova-blue-starter-theme/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Supernova-Blue/supernova-blue.git"
+    "url": "git+https://github.com/Supernova-Blue/supernova-blue-starter-theme.git"
   },
   "license": "ISC",
   "author": "Roberto Capannelli",
@@ -16,8 +16,8 @@
   "main": "main.js",
   "scripts": {
     "dev": "bash scripts/dev-with-tunnel.sh --",
-    "preview": "vite preview",
-    "deploy": "run-s \"vite:build\" \"shopify:push -- {@}\" --",
+    "deploy": "run-s format \"vite:build\" \"shopify:push -- {@}\" --",
+    "build": "run-s format \"vite:build\"",
     "shopify:dev": "shopify theme dev",
     "shopify:push": "shopify theme push",
     "shopify:check": "shopify theme check",
