@@ -20,6 +20,7 @@
     "deploy": "run-s \"vite:build\" \"shopify:push -- {@}\" --",
     "shopify:dev": "shopify theme dev",
     "shopify:push": "shopify theme push",
+    "shopify:check": "shopify theme check",
     "vite:dev": "vite",
     "vite:build": "vite build",
     "format": "prettier --write --cache .",
