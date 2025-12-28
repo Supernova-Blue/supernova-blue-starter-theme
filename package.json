@@ -15,7 +15,7 @@
   "type": "module",
   "main": "main.js",
   "scripts": {
-    "dev": "run-p -sr \"shopify:dev -- {@}\" \"vite:dev\" --",
+    "dev": "bash scripts/dev-with-tunnel.sh --",
     "preview": "vite preview",
     "deploy": "run-s \"vite:build\" \"shopify:push -- {@}\" --",
     "shopify:dev": "shopify theme dev",

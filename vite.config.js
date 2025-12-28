@@ -6,7 +6,7 @@ import pageReload from 'vite-plugin-page-reload'
 
 export default defineConfig({
   plugins: [
-    pageReload(['**/*.liquid', '**/*.css', '**/*.js']),
+    pageReload(['**/*.liquid', '**/*.css', '**/*.js'], { delay: 2000 }),
     shopifyClean(),
     shopify({
       snippetFile: 'vite-tag.liquid',
